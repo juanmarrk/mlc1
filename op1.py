@@ -17,3 +17,4 @@ ax[0].set_ylabel("Price (1000's)")
 
 _,_,hist = run_gradient_descent(X_train, y_train, 10, alpha = 1e-7)
 plot_cost_i_w(X_train,y_train,hist)
+
